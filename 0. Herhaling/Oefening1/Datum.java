@@ -9,4 +9,8 @@ public class Datum {
 		this.maand = maand;
 		this.jaar = jaar;
 	}
+	
+	public Datum () {
+		
+	}
 }
