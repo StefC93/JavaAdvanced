@@ -1,4 +1,4 @@
-package Oefening1;
+package oefening1;
 
 public class Datum {
 
