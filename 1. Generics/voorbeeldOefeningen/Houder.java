@@ -24,7 +24,6 @@ public class Houder<T> {
 			System.out.println(item.geef());
 		}
 
-
 		// Houder<Integer> houder1 = new Houder<>(1);
 		// Houder<String> houder2 = new Houder<>("Test");
 		// Houder<Student> houder3 = new Houder<>(new Student("Jan"));
