@@ -7,16 +7,6 @@ public class Tover<T> {
 	private static Konijn k1 = new Konijn();
 	private static Random rand = new Random();
 
-	private T inhoudHoed;
-
-	public T kijkInHoed() {
-		return inhoudHoed;
-	}
-
-	public Tover(T inhoudHoed) {
-		this.inhoudHoed = inhoudHoed;
-	}
-
 	public static <T> T toss(T duif, T konijn) {
 		return rand.nextBoolean() ? duif : konijn;
 	}
