@@ -16,12 +16,12 @@ public class Opvullen<T> {
 
 	public static <T> void main(String[] args) {
 		List<Opvullen> myList = new ArrayList<>();
-		
+
 		for (int i = 0; i < 20; i++) {
-			myList.add(new Opvullen<String>("nummer: " + (i+1)));
+			myList.add(new Opvullen<String>("nummer: " + (i + 1)));
 		}
-		
-		for (Opvullen item : myList){
+
+		for (Opvullen item : myList) {
 			System.out.println(item.vulling);
 		}
 	}
