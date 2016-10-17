@@ -2,6 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="1. Generics"/>
 	<classpathentry kind="src" path="0. Herhaling"/>
+	<classpathentry kind="src" path="2. Nested and Anonymous Classes"/>
+	<classpathentry kind="src" path="3. Collections"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
