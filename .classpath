@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="1. Generics"/>
 	<classpathentry kind="src" path="0. Herhaling"/>
+	<classpathentry kind="src" path="1. Generics"/>
 	<classpathentry kind="src" path="2. Nested and Anonymous Classes"/>
 	<classpathentry kind="src" path="3. Collections"/>
 	<classpathentry kind="src" path="4. Exception Handling"/>
