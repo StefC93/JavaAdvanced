@@ -1,0 +1,7 @@
+- TreeSet
+- Sorteermethode
+- 2de verzameling: sorted op bedrijf
+- Constructor initialiseert alle velden
+- Split op '\n' en split op ';'
+
+callLog.setDatum(new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").parse(callLogArray[2] + " " + callLogArray[3]));
