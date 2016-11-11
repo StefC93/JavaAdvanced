@@ -1,4 +1,4 @@
-package oefening1;
+package oefening1Goochelaar;
 
 import java.util.Random;
 

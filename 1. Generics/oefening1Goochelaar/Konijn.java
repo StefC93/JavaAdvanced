@@ -1,4 +1,4 @@
-package oefening1;
+package oefening1Goochelaar;
 
 public class Konijn extends Dier{
 	

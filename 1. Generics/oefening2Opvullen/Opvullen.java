@@ -1,4 +1,4 @@
-package oefening2;
+package oefening2Opvullen;
 
 import java.util.ArrayList;
 import java.util.List;
