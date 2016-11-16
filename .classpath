@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="3. Collections"/>
 	<classpathentry kind="src" path="4. Exception Handling"/>
 	<classpathentry kind="src" path="Algemene Oefeningen"/>
+	<classpathentry kind="src" path="5. File IO"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
