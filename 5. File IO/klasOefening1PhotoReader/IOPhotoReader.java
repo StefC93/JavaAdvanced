@@ -9,10 +9,10 @@ import java.nio.file.Paths;
 
 import javax.swing.JFrame;
 
-public class IOPhotoreader {
+public class IOPhotoReader {
 
 	public static void main(String[] args) {
-		IOPhotoreader reader = new IOPhotoreader();
+		IOPhotoReader reader = new IOPhotoReader();
 		byte[] photoData = reader.readPhoto();
 
 		if (photoData != null) {

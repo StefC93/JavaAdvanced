@@ -1,4 +1,4 @@
-package call.logs;
+package callLogs;
 
 public class CallLogData {
 
