@@ -7,6 +7,9 @@
 	<classpathentry kind="src" path="4. Exception Handling"/>
 	<classpathentry kind="src" path="Algemene Oefeningen"/>
 	<classpathentry kind="src" path="5. File IO"/>
+	<classpathentry kind="src" path="6. Systeembronnen"/>
+	<classpathentry kind="src" path="7. Command line"/>
+	<classpathentry kind="src" path="8. Multithreading"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
