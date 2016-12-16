@@ -1,4 +1,4 @@
-package boekOpdracht3;
+package opdracht3;
 //bolt niet goed
 
 

@@ -1,4 +1,4 @@
-package boekOpdracht1;
+package opdracht2;
 //outer class
 public class Musician {
 	//method
@@ -8,10 +8,10 @@ public class Musician {
 		i1.makeNoise();
 	}
 	//inner class
-	public class Instrument {
+	class Instrument {
 		//method
 		public void makeNoise() {
-			System.out.println("tudu");
+			System.out.println("tudu tudu");
 		}
 	}
 	

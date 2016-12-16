@@ -1,4 +1,4 @@
-package boekOpdracht4;
+package opdracht4;
 
 import klasOefening1.WordFilter;
 
@@ -16,8 +16,12 @@ public class Text {
 			}
 		}
 	}
-	
+
 	public String toString() {
 		return sentence;
+	}
+
+	public void split(String string) {
+		System.out.println(string);
 	}
 }
