@@ -7,14 +7,12 @@ public class CounterAppLambda {
 		Thread thread1 = new Thread(() -> increment(counter, 1000));
 		Thread thread2 = new Thread(() -> increment(counter, 1000));
 
-		
 		thread1.start();
 		thread2.start();
-		
+
 		thread1.join();
 		thread2.join();
-		
-		
+
 		System.out.println(counter.getCount());
 	}
 
