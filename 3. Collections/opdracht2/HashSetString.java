@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public class HashString {
+public class HashSetString {
 
 	public static void main(String[] args) {
 		// Arraylist en scanner aanmaken

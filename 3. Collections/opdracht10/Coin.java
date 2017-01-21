@@ -1,0 +1,13 @@
+package opdracht10;
+
+public enum Coin {
+	EENCENT,
+	TWEECENT,
+	VIJFCENT,
+	TIENCENT,
+	TWINTIGCENT,
+	VIJFTIGCENT,
+	EENEURO,
+	TWEEEURO
+
+}
