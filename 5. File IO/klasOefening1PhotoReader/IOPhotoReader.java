@@ -23,13 +23,13 @@ public class IOPhotoReader {
 			frame.getContentPane().add(panel, BorderLayout.SOUTH);
 			frame.setSize(800, 600);
 			frame.setVisible(true);
-			
+
 			panel.start();
 		}
 
 	}
 
-	private byte[] readPhoto() {
+	byte[] readPhoto() {
 		Path path = Paths.get("5. File IO/Capture.PNG");
 
 		FileInputStream fin = null;
@@ -41,9 +41,9 @@ public class IOPhotoReader {
 
 			fin.read(fileData, 0, photoLength);
 
-			System.out.println("Ingelezen " + fileData.length);
+			System.out.println("Ingelezen " + fileData.length + " bytes");
 			return fileData;
-			
+
 		} catch (FileNotFoundException e) {
 			System.out.println("Fout bij het inlezen van foto " + path.getFileName().toString());
 			e.printStackTrace();
