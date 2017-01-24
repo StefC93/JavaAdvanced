@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Application properties</comment>
+<entry key="Attribute3">Value3</entry>
+<entry key="Attribute2">Value2</entry>
+<entry key="Attribute1">Value1</entry>
+</properties>
