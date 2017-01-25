@@ -1,7 +1,5 @@
 package opdracht4;
 
-import klasOefening1.WordFilter;
-
 public class TextApp {
 
 	public static void main(String[] args) {
