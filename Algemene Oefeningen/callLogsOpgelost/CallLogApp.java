@@ -94,7 +94,6 @@ public class CallLogApp {
 	private void init() {
 		Properties properties = getApplicationProperties("Algemene Oefeningen\\callLogsOpgelost\\resources");
 		inputFolder = properties.getProperty("inputfolder");
-		System.out.println("inputFolder: " + inputFolder);
 		outputFolder = properties.getProperty("outputfolder");
 		archiveFolder = properties.getProperty("archivefolder");
 		try {
@@ -103,7 +102,6 @@ public class CallLogApp {
 			System.out.println("Unable to parse archiveUntilDate property. Will use default 2 years from now");
 			archiveUntilDate = get2YearsFromNow();
 		}
-
 	}
 
 	/**
