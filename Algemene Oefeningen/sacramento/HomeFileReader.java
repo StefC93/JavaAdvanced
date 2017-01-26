@@ -12,11 +12,11 @@ public class HomeFileReader {
 
 	public List<HomeInfo> readFile(File toRead) {
 		List<HomeInfo> homeInfoList = new ArrayList<>();
-		BufferedReader bufferedReader = null;
+		// BufferedReader bufferedReader = null;
 
-		try {
-			bufferedReader = Files.newBufferedReader(toRead.toPath());
-			String line =  bufferedReader.readLine();  //De eerste lijn overslaan (header kolom)
+		try (BufferedReader bufferedReader = Files.newBufferedReader(toRead.toPath())) {
+			String line = bufferedReader.readLine(); // De eerste lijn overslaan
+														// (header kolom)
 			while ((line = bufferedReader.readLine()) != null) {
 				String[] splittedLine = line.split(",");
 				HomeInfo homeInfo = new HomeInfo(splittedLine[0], splittedLine[1], splittedLine[2], splittedLine[3],
@@ -30,13 +30,6 @@ public class HomeFileReader {
 			// TODO Auto-generated catch block
 			System.out.println("File kan niet gelezen worden. " + e.getMessage());
 			e.printStackTrace();
-		} finally {
-			try {
-				bufferedReader.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		}
 		return homeInfoList;
 
