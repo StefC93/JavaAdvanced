@@ -9,7 +9,7 @@ public class TextApp {
 		System.out.println("*** Words containing 'e' ***");
 		text.printFilteredWords((s) -> s.contains(a)); // punt 1
 
-		// System.out.println("Words containing 'e' as second character");
-		// text.printFilteredWords((s) -> s.contains(s)); //punt 2 TBA
+		System.out.println("\nWords containing 'e' as second character");
+		text.printFilteredWords((s) -> s.startsWith("e", 1));
 	}
 }
