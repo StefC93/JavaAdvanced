@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public abstract class Machine<In extends Item, Out extends Item> {
+	// Tijd van 3000ms definiëren om later als Thread.sleep time te gebruiken
 	private static final long PROCESS_TIME = 3000;
 	
 	public final Set<Out> process(Set<? extends In> ins) throws InterruptedException {
